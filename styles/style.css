@@ -34,6 +34,11 @@ header {
   background-color: var(--cinza-claro);
 }
 
+a {
+  all: unset;
+  text-align: center;
+}
+
 .header {
   height: 100%;
   width: 100%;
@@ -55,7 +60,7 @@ header {
   color: var(--texto-verde-escuro);
 }
 
-.header button {
+.header a {
   border: none;
   padding: 10px 15px;
   background-color: var(--texto-verde-claro);
@@ -66,7 +71,7 @@ header {
   transition: all 0.5s;
 }
 
-.header button:hover {
+.header a:hover {
   background-color: #34963e;
 }
 main {
@@ -119,7 +124,7 @@ article {
   font-size: 18px;
 }
 
-.introducao button {
+.introducao a {
   margin-top: 20px;
   border: none;
   width: 100%;
@@ -132,7 +137,7 @@ article {
   transition: all 0.5s;
 }
 
-.introducao button:hover {
+.introducao a:hover {
   background-color: #34963e;
 }
 
@@ -229,7 +234,7 @@ footer {
 
   text-align: justify;
 }
-.um-minuto button {
+.um-minuto a {
   border: none;
   width: 100%;
   padding: 10px;
@@ -241,7 +246,7 @@ footer {
   transition: all 0.5s;
 }
 
-.um-minuto button:hover {
+.um-minuto a:hover {
   background-color: #34963e;
 }
 .citacao {
